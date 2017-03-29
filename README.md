@@ -8,5 +8,4 @@ http://jakewelchert.com/douglascountydemocrats/news-single.html
 
 http://jakewelchert.com/douglascountydemocrats/candidates-listing.html
 http://jakewelchert.com/douglascountydemocrats/candidate-single.html
-
 http://jakewelchert.com/douglascountydemocrats/electedofficials-listing.html
