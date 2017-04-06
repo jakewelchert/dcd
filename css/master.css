@@ -23,7 +23,7 @@
 
 /*    Pages    */
 @import url(../css/_pages/index.css);
-@import url(../css/_pages/news-archive.css);
+@import url(../css/_pages/news-listing.css);
 @import url(../css/_pages/news-single.css);
 @import url(../css/_pages/candidates.css);
 @import url(../css/_pages/events-archive.css);
