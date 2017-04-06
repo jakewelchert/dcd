@@ -1,0 +1,252 @@
+.support {
+	padding: 35px 0 40px;
+	color: #fff;
+	text-align: center;
+}
+	@media screen and (min-width: 800px) {
+	.support {
+	padding: 75px 0 80px;
+	}
+	}
+
+.support .btn {
+	padding: 20px 30px;
+}
+
+.support-blue {
+	background-color: #1c355e;
+}
+
+.support-red {
+	background-color: #dc3a2e;
+}
+
+.support h2 {
+	font-size: 26px;
+	line-height: 1.45;
+}
+	@media screen and (min-width: 800px) {
+	.support h2 {
+	font-size: 35px;
+	}
+	}
+
+
+footer {
+	padding: 0;
+}
+	@media (min-width: 700px) {
+	footer {
+	padding: 50px 25px 0 25px;
+	}
+	}
+
+	@media (min-width: 900px) {
+	footer {
+	padding: 50px 50px 0 50px;
+	}
+	}
+
+ul.social-footer li {
+	display: inline-block;
+	margin-top: 10px;
+}
+
+
+.footer-left {
+	width: 100%;
+}
+	@media (min-width: 900px) {
+	.footer-left {
+	width: 60%;
+	float: left;
+	}	
+	}
+
+
+
+ul.footer-nav {
+	padding: 20px 0;
+	list-style: none;
+    position: relative;
+    text-align: center;
+}
+	@media (min-width: 900px) {
+	ul.footer-nav {
+	padding: 0;
+	list-style: none;
+	position: absolute;
+	top: 34%;
+	z-index: 1000;
+	text-align: left;
+	}
+	}
+
+	@media (min-width: 1024px) {
+	ul.footer-nav {
+	top: 30%;
+	}
+	}
+
+ul.footer-nav li {
+	margin-bottom: 1px;
+}
+
+ul.footer-nav li a {
+  text-transform: none;
+  color: #1c355e;
+  font-weight: 400;
+  font-size: 1.75rem;
+  letter-spacing: .045rem;
+}  
+
+ul.footer-nav li a:hover {
+  text-decoration: underline;
+}
+
+
+.footer-crest {
+	width: 80%;
+	margin: 45px auto 25px;
+	max-width: 300px;
+}
+	@media (min-width: 900px) {
+	.footer-crest {
+	width: 200px;
+	margin: 0px 0 80px 25px;
+	float: right;
+	}
+	}
+	@media (min-width: 1200px) {
+	.footer-crest {
+	margin: 0px 0 50px 25px;
+	}
+	}
+
+
+.footer-register {
+	text-align: center;
+	margin: 0 auto 10px;
+	z-index: 1000;
+}
+	@media (min-width: 900px) {
+	.footer-register {
+	position: absolute;
+	right: 12px;
+	width: 275px;
+	top: 250px;
+	}
+	}
+	@media (min-width: 1300px) {
+	.footer-register {
+	position: absolute;
+	right: 12px;
+	width: 275px;
+	top: 275px;
+	}
+	}
+
+
+.footer-copy p {
+	font-size: 13px;
+	max-width: 400px;
+	margin: 0 auto;
+}
+.footer-copy {
+    position: relative;
+	margin-bottom: 30px;
+}
+	@media (min-width: 900px) {
+	.footer-copy {
+	    position: absolute;
+	    left: 465px;
+	    width: 225px;
+	    bottom: 220px;
+	}
+	}
+	@media (min-width: 1024px) {
+	.footer-copy {
+	    position: absolute;
+	    left: 530px;
+	    width: 275px;
+	    bottom: 255px;
+	}
+	}
+	@media (min-width: 1100px) {
+	.footer-copy {
+	    position: absolute;
+	    left: 595px;
+	    width: 275px;
+	    bottom: 290px;
+	}
+	}
+	@media (min-width: 1200px) {
+	.footer-copy {
+	    position: absolute;
+	    left: 670px;
+	    width: 275px;
+	    bottom: 330px;
+	}
+	}
+
+
+.footer-bottom {
+	position: relative;
+}
+	@media (min-width: 900px) {
+	.footer-bottom {
+		width: 700px;
+		margin: 100px auto 0;
+	}
+	}
+
+	@media (min-width: 1024px) {
+	.footer-bottom {
+		width: 800px;
+		margin: 0 auto;
+	}
+	}
+
+	@media (min-width: 1100px) {
+	.footer-bottom {
+		width: 900px;
+		margin: 0 auto;
+	}
+	}
+
+	@media (min-width: 1200px) {
+	.footer-bottom {
+		width: 1000px;
+		margin: 0 auto;
+	}
+	}
+
+.footer-bottom .dems-color img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.desaturate {
+    filter: grayscale(100%); /* Standard CSS */
+    -webkit-filter: grayscale(100%); /* CSS for Webkit Browsers */
+    filter: url(/elements/grayscale.svg#desaturate); /* Firefox 4-34 */
+    filter: gray;  /* Internet Explorer IE6-9 */
+    -webkit-filter: grayscale(1); /* Old WebKit Browsers */
+    opacity: .075;
+	-moz-transition: all 0.3s ease-in,all 0.35s ease-out;
+	-o-transition: all 0.3s ease-in,all 0.35s ease-out;
+	-webkit-transition: all 0.3s ease-in,all 0.35s ease-out;
+	transition: all 0.3s ease-in,all 0.35s ease-out;
+}
+
+.desaturate:hover {
+    filter: grayscale(0%);
+    filter: none;
+    -webkit-filter: grayscale(0); /* Old WebKit */
+    opacity: 1;
+}
+
+.social-footer .share-tw {
+	margin-left: 7px;
+}

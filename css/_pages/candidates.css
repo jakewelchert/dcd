@@ -1,0 +1,144 @@
+.candidates-subhead {
+  padding-left: 25px;
+  margin-bottom: 0;
+	padding-bottom: 20px;
+}
+
+.candidates-subhead-row {
+  margin-top: 50px;
+}
+	@media (min-width: 600px) {
+	.candidates-subhead {
+	padding-left: 0px;
+	margin-bottom: 0;
+	}
+	}
+
+
+.candidate-module {
+	background-color: #fff;
+	padding: 10px;
+	border-top: 2px solid #ccc;
+	border-bottom: 2px solid #ccc;
+	text-align: left;
+	margin-bottom: 4%;
+}
+
+	@media (min-width: 600px) {
+	.candidate-module {
+	border: 2px solid #ccc;
+	}
+	}
+
+	@media (min-width: 950px) {
+	.candidate-module {
+	padding: 20px;
+	}
+	}
+
+
+.candidate-module img {
+	width: 85px;
+	display: inline-block;
+	float: left;
+}
+	@media (min-width: 550px) {
+	.candidate-module img {
+	width: 125px;
+	}
+	}
+
+	@media (min-width: 950px) {
+	.candidate-module img {
+	width: 165px;
+	}	
+	}
+
+
+.candidate-module .content {
+	float: left;
+	padding-left: 15px;
+	padding-top: 0px;
+}
+	@media (min-width: 950px) {
+	.candidate-module .content {
+	float: left;
+	padding-left: 25px;
+	padding-top: 25px;
+	}
+	}
+
+
+.candidate-module .content p {
+	margin-top: 2px;	
+	padding-bottom: 5px;
+}
+
+	@media (min-width: 950px) {
+	.candidate-module .content p {
+	margin-top: 5px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+	}
+	}
+
+
+ul.candidate-social 					{list-style: none;}
+ul.candidate-social li 					{display: inline;}
+ul.candidate-social li img				{border-radius: 50%;}
+ul.candidate-social li img:hover		{opacity: .85;}
+ul.candidate-social li .email img		{background-color: #1c355e;}
+ul.candidate-social li .facebook img	{background-color: #0071bc;}
+ul.candidate-social li .twitter img		{background-color: #12c1fd;}
+
+ul.candidate-social li img {
+	display: inline;
+	width: 25px;
+	margin-right: 5px;
+}
+	@media (min-width: 600px) {
+	ul.candidate-social li img {
+	display: inline;
+	width: 30px;
+	margin-right: 7px;
+	}
+	}
+
+	@media (min-width: 1024px) {
+	ul.candidate-social li img {
+	width: 40px;
+	}	
+	}
+
+body > section.interior-header > div > div > select {
+	width: 100%;
+	height: 60px;
+	border: 3px solid #ddd;
+	border-radius: 0;
+	font-size: 20px;
+	color: #1c355e;
+	-webkit-appearance: none;
+}
+
+.candidate-single-image {
+	width: 225px;
+	margin-bottom: 20px;
+}
+
+.candidate-contact-info {
+	margin: 0;
+}
+
+	@media (min-width: 800px) {
+	.candidate-single-image {
+	width: 225px;
+	float: left;
+	margin-bottom: 40px;
+	}
+
+
+	.candidate-contact-info {
+	float: left;
+	margin: 35px 0 0 35px;
+	}
+	}

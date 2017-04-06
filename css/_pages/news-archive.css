@@ -1,0 +1,144 @@
+.featured-news-index, .featured-news-listing, .interior {
+	padding: 25px 0;
+}
+
+	@media (min-width: 800px) {
+	.featured-news-index, .featured-news-listing, .interior {
+		padding: 50px 0;
+	}
+	}
+
+
+@media (max-width: 799px) {
+.featured-news-index img, .featured-news-listing img, .featured-news img {
+	display: none;
+}
+}
+
+.featured-news-index, .interior-header {
+	background-color: #fff;
+}
+
+ul.featured-news, ul.featured-news-meta {
+	list-style: none;
+	margin: 0;
+}
+
+ul.featured-news h4 {
+	padding: 10px 0 5px;
+}
+
+	@media (min-width: 800px) {
+		ul.featured-news h4 {
+		padding: 12px 0;
+		}
+	}
+
+
+ul.featured-news li {
+	border-bottom: 2px solid #ccc;
+	padding: 10px 0;
+}
+
+ul.featured-news li:last-child {
+	margin-bottom: 0;
+}
+
+	@media (min-width: 500px) {
+	ul.featured-news li {
+	padding: 35px 0;
+	}
+	}
+
+ul.featured-news li:first-child {
+	border-top: 2px solid #ccc;
+}
+
+ul.featured-news-meta-single  {
+	padding-top: 8px;
+}
+
+ul.featured-news-meta li, ul.featured-news-meta li:first-child {
+	border: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+ul.featured-news-meta li {
+	display: inline-block;
+	padding-left: 20px;
+}
+	@media (max-width: 799px) {
+	ul.featured-news-meta li:last-child {
+	display: block;
+	padding-left: 0;
+	}
+
+	ul.featured-news li img {
+	max-width: 150px;
+	padding-bottom: 20px;
+	}
+	}
+
+body > section.interior-header > div > div > input {
+	width: 100%;
+	height: 60px;
+	border: none;
+	border-bottom: 2px solid #ddd;
+	border-radius: 0;
+	font-size: 20px;
+	color: #1c355e;
+	-webkit-appearance: none;
+}
+
+body > section.interior-header > div > div > input[type="placeholder"] {
+	color: #1c355e;
+}
+
+	#search-icon {
+	position: relative;
+	height: 60px;
+	border: none;
+	border-bottom: 3px solid #ddd;
+	border-radius: 0;
+	font-size: 20px;
+	color: #1c355e;
+	-webkit-appearance: none;	
+	}
+
+	#search-icon:before {
+	color: #1C355F;
+	content:"\f002";
+	font-family: FontAwesome;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	font-size: 25px;
+	}
+
+	#arrow-icon {
+	position: relative;
+	height: 60px;
+	border: none;
+	border-bottom: 3px solid #ddd;
+	border-radius: 0;
+	font-size: 20px;
+	color: #1c355e;
+	-webkit-appearance: none;	
+	}
+
+	#arrow-icon:before {
+	color: #1C355F;
+	content:"\f0dd";
+	font-family: FontAwesome;
+	position: absolute;
+	top: 13px;
+	right: 22px;
+	font-size: 25px;
+	}
+
+@media (max-width: 799px) {
+	.arrow-select {
+		margin-top: 10px;
+	}
+}

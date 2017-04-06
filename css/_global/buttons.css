@@ -1,0 +1,153 @@
+/* Buttons
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+.btn,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  padding: 20px 60px;
+  color: #fff;
+  background-color: #dc3a2e;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 40px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: all 225ms ease;
+  text-transform: uppercase;
+ }
+
+.button-small,
+.btn-small {
+  padding: 18px 30px;
+  font-size: 1.8rem;
+}
+
+.button:hover,
+.btn:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #fff;
+  background-color: #c93b30;
+  outline: 0;
+  box-shadow: 0 0 20px rgba(0,0,0,.15) }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;}
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+.btn-small {padding: 15px 30px;}
+
+.btn-white        {background-color: #fff; color: #dc3a2e; font-weight: 700;}
+.btn-white:hover  {background-color: #dc3a2e; color: #fff;}
+
+.btn-donate-mobile {
+  padding: 16px 32px;
+  color: #fff !important;
+}
+
+.btn-donate       {padding: 10px 16px; font-size: 15px; margin-top: 47px;}
+@media screen and (min-width: 500px) {
+.btn-donate {
+  padding: 16px 32px;
+  margin-top: 10px;
+  margin-right: 70px;
+}
+}
+
+@media screen and (min-width: 800px) {
+.btn-donate {
+  padding: 16px 25px;
+  margin-right: 0px;
+}
+}
+
+.btn-footer-donate{margin: 20px auto 0; max-width: 270px;}
+.btn-footer-signup{max-width: 270px; display: inline-block;}
+    .footer-input {margin: 20px auto 0; max-width: 400px; height: 60px; display: inline-block; width: 80%; margin-bottom: 20px;padding: 0 15px;}
+
+@media screen and (min-width: 500px) {
+.footer-input {width: 40%; margin-right: 20px;}
+}
+
+@media screen and (min-width: 800px) {
+.btn-footer-donate{margin: 45px auto 0;}
+.footer-input {margin: 45px auto 0; margin-right: 20px; padding: 0 15px;}
+}
+
+
+.share {
+  padding: 13px 14px 15px 15px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.share-fb         {background-color: #0071bc;}
+.share-fb:hover   {background-color: #0364a4;}
+.share-tw         {background-color: #12c1fd; padding: 13px 16px 15px 11px;}
+.share-tw:hover   {background-color: #12ace0;}
+
+
+.social-fb        {padding: 11px 10px 15px 9px !important;}
+.social-tw        {padding: 11px 10px 15px 9px !important;}
+
+
+.share-post {
+  padding: 15px 20px;
+  width: 250px;
+  height: 65px;
+  line-height: 45px;
+  border-radius: 50px;
+  font-size: 18px;
+  color: #fff;
+}
+  @media screen and (min-width: 600px) {
+  .share-post {
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+  }
+
+  @media screen and (min-width: 1024px) {
+  .share-post {
+    padding: 25px 60px;
+  }
+  }
+
+.share-post:hover {
+  color: #fff;
+}

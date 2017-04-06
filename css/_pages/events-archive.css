@@ -1,0 +1,138 @@
+.events-archive h3 {
+	margin-bottom: 10px;
+}
+
+ul.events-archive {
+	list-style: none;
+	margin: 0;
+}
+
+ul.events-archive li {
+	border-top: 2px solid #ccc;
+	padding: 20px 5px 23px;
+}
+
+ul.events-archive li:last-child {
+	border-bottom: 2px solid #ccc;
+}
+
+@media screen and (min-width: 800px) {
+	.events-archive {
+		padding: 30px 0 50px;
+	}
+
+	ul.events-archive li {
+		padding: 0;
+		margin: 0 0 50px 0;
+	}
+
+	ul.events-archive li:last-child {
+		border-bottom: none;
+	}
+	}
+
+
+/* ---------- Meeting Date ---------- */
+.meeting-date {
+	text-align: center;
+	line-height: .8;
+}
+
+.meeting-date a {
+	color: #dc3a2e;
+}
+.meeting-date a:hover {
+	color: #1c355e;
+}
+
+.meeting-date p {
+	margin: 0;
+}
+
+	@media screen and (max-width: 799px) {
+		.meeting-date, .meeting-info {
+		width: 100%;
+		text-align: left;
+		}
+	}
+
+	@media screen and (min-width: 800px) {
+		.meeting-date {
+		color: #dc3a2e;
+		float: left;
+		padding: 5% 3% 7% 2%;
+		}
+
+		.meeting-date p {
+		font-size: 16px;
+		padding-top: 5px;
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
+		.meeting-date {
+		padding: 5% 5% 0 5%;
+		}
+	}
+
+
+/* ---------- Meeting Info ---------- */
+.meeting-info {
+	float: left;
+	padding: 0 0 10px 0;
+	font-size: 30px;
+}
+
+.meeting-info-number {
+	font-family: 'Roboto Slab', sans-serif;
+}
+
+	@media screen and (min-width: 800px) {
+		.meeting-info {
+		border-left: 2px solid #ccc;
+		padding: 5% 25px 5% 5%;
+		width: 450px;
+		}
+		
+		.meeting-info-number {
+		font-size: 60px;
+		display: block;
+		margin-top: -18px;
+		font-weight: 300;
+		}
+	}
+
+	@media screen and (min-width: 900px) {
+		.meeting-info {
+		width: 550px;
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
+		.meeting-info {
+		width: 600px;
+		}
+	}
+
+
+/* ---------- Meeting RSVP Button ---------- */
+@media screen and (max-width: 799px) {
+.btn-rsvp {
+  max-width: 200px;
+  padding: 15px 40px;
+  font-size: 1.8rem;
+}
+}
+  @media screen and (min-width: 800px) {
+	  .btn-rsvp {
+	  padding: 15px 40px;
+	  float: right;
+	  margin-top: 5.5%;
+	  }
+  }
+
+	@media screen and (min-width: 1200px) {
+		.btn-rsvp {
+		padding: 15px 80px;
+		}
+	}

@@ -1,0 +1,128 @@
+header {
+	padding: 37px 0 67px;
+	padding: 10px 0 0 0;
+	min-height: 200px;
+	border-bottom: 1px solid #aaa;
+}
+	@media screen and (min-width: 800px) {
+		header {
+		min-height: 175px;
+		border-bottom: 0;
+		}
+	}
+
+	@media screen and (min-width: 1300px) {
+		header {
+		min-height: 220px;
+		}
+	}
+
+
+/*  --------------------  HEADER LOGOS  --------------------  */
+.header-logo, .header-logo-mobile {
+	position: absolute;
+	top: 5px;
+	left: 25px;
+	width: 120px;
+	height: 100px;
+	display: block;
+	background-size: contain;
+	z-index: 10000;
+}
+
+.header-logo-mobile {
+	top: 15px;
+}
+
+	@media screen and (min-width: 700px) {
+		.header-logo, .header-logo-mobile {
+		top: 5px;
+		left: 25px;
+		width: 140px;
+		}
+	}
+
+	@media screen and (min-width: 900px) {
+		.header-logo, .header-logo-mobile {
+		width: 160px;
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
+		.header-logo, .header-logo-mobile {
+		left: 30px;
+		width: 200px;
+		}
+	}
+
+	@media screen and (min-width: 1300px) {
+		.header-logo, .header-logo-mobile {
+		left: 60px;
+		width: 225px;
+		}
+	}
+
+
+/*  --------------------  HEADER TICKER  --------------------  */
+.ticker {
+	padding-top: 10px;
+}
+
+.mobile-ticker {
+	margin-top: 100px;
+	padding: 25px;
+}
+	@media screen and (min-width: 800px) {
+		.mobile-ticker {
+		display: none;
+		}
+	}
+
+
+/*  --------------------  HEADER SHARE BUTTONS  --------------------  */
+.header-action {
+	position: absolute;
+	top: 0px;
+	right: 15px;
+}
+
+	@media screen and (max-width: 799px) {
+		.header-action-share {
+		display: none;
+		}
+	}
+
+	@media screen and (min-width: 800px) {
+		.header-action .share {
+		position: absolute;
+		top: 70px;
+		right: 0;
+		}
+
+		.header-action .fa-twitter {
+		margin-right: 0;
+		}
+
+		.header-action .fa-facebook {
+		right: 55px;
+		}
+	}
+
+	@media screen and (min-width: 1024px) {
+		.header-action .share {
+		position: relative;
+		top: -2px;
+		}
+
+		.header-action .fa-twitter {
+		margin-right: 0;
+		}
+
+		.header-action .fa-facebook {
+		right: -2px;
+		}
+		
+		.header-action .share {
+			margin-right: 8px;
+		}
+	}

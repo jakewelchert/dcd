@@ -1,0 +1,226 @@
+/*  --------------------  INDEX MANTLE  --------------------  */
+@media (min-width: 1024px) {
+	.mantle-mobile img {
+	display: none;
+	}	
+}
+
+/*  --------------------  INDEX MANTLE - MOBILE PHOTOS --------------------  */
+ul.mantle-mobile {
+	list-style: none;
+}
+
+ul.mantle-mobile li {
+	width: 24.25%;
+	float: left;
+	margin-right: 1%;
+}
+
+ul.mantle-mobile li:last-child {
+	width: 24.25%;
+	float: left;
+	margin-right: 0%;
+}
+
+	@media (min-width: 400px) and (max-width: 800px) {
+		.mantle-middle {
+		width: 90% !important;
+		}
+	}
+
+	@media (min-width: 801px) and (max-width: 1023px) {
+		.mantle-middle {
+		width: 70% !important;
+		margin-left: 15%;
+		}
+	}
+
+	@media (max-width: 1023px) {
+		.mantle-photos-left, .mantle-photos-right {
+		display: none;
+		}
+	}
+
+.mantle-photos-left {
+	float: left;
+	width: 22%;
+}
+
+.mantle-photos-right {
+	float: right;
+	width: 30.66666667%;
+}
+
+
+
+.mantle {
+	padding: 0px 25px 50px 25px;
+}
+	@media (min-width: 600px) and (max-width: 800px) {
+	.mantle {
+	padding: 0px 75px 50px 75px;
+	max-width: 650px;
+	margin: 0 auto;
+	}
+	}
+
+	@media (min-width: 800px) {
+	.mantle {
+	padding: 0 0 50px 0;
+	}
+	}
+
+.mantle h1 {
+	padding-bottom: 15px;
+}
+
+.mantle img.one {
+	padding-left: 30%;
+	margin-top: 25px;
+}
+
+.mantle img.four {
+	padding-right: 20%;
+	margin-top: 25px;
+}
+
+.mantle ul {
+	list-style: none;
+}
+
+.mantle ul li {
+	border-bottom: 2px solid #ddd;
+	margin: 0;
+	padding: 15px 5px;
+}
+
+.mantle p {
+margin: 0;
+}
+
+	@media (min-width: 1024px) {
+	.mantle ul li {
+	padding: 12px 0 15px;
+	}
+	}
+
+	@media (min-width: 1200px) {
+	.mantle ul li {
+	padding: 15px 0 7px;
+	}
+	}
+
+.mantle ul li:first-child {
+	border-top: 2px solid #ddd;
+}
+
+.index-events {
+	margin: 30px 0;
+}
+
+	@media (min-width: 800px) {
+	.index-events {
+	margin: 30px 0 60px;
+	}	
+	}
+
+@media (max-width: 799px) {
+.mantle-photos {
+display: none;
+}
+}
+
+.candidates {
+	padding: 50px 0;
+}
+
+.candidates-header, .candidates-footer {
+	text-align: center;
+}
+
+.candidates-header {
+	padding-bottom: 25px;
+}
+
+.candidates h5 {
+	margin-bottom: 0;
+}
+
+.events-index {
+	border-top: none;
+	padding: 0 0 5px 0;
+	margin-bottom: 15px;
+}
+
+.events-index .meeting-date {
+	padding: 0;
+}
+
+	@media screen and (min-width: 800px) {
+		.candidates-header {
+		padding-bottom: 50px;
+		}
+		
+		.events-index .meeting-date {
+		color: #dc3a2e;
+		float: left;
+		padding: 0% 4% 0% 0%;
+		float: left;
+		}
+
+		.events-index .meeting-info {
+		width: 310px !important;
+		padding: 5% 5px 5% 5%;
+		}
+
+		.events-index .meeting-info {
+		border-left: 0px solid #ccc;
+		}
+
+		.events-index .meeting-date p {
+		font-size: 16px;
+		}
+	}
+
+
+@media screen and (max-width: 1024px) {
+	.events-index .btn-rsvp {
+		padding: 15px 20px;
+	}
+}
+
+.events-index .meeting-info {
+	float: left;
+	padding: 0;
+	font-size: 30px;
+}
+
+	@media screen and (min-width: 1024px) {
+		.events-index .meeting-date {
+		color: #dc3a2e;
+		float: left;
+		padding: 0% 6% 0% 1%;
+		float: left;
+		}
+
+		.events-index .meeting-date p {
+		font-size: 16px;
+		padding-top: 4px;
+		}
+		
+		.events-index .meeting-info-number {
+		font-size: 50px;
+		display: block;
+		margin-top: -20px;
+		font-weight: 300;
+		}
+	}
+
+	@media screen and (min-width: 1200px) {
+		.events-index .meeting-info-number {
+		font-size: 60px;
+		display: block;
+		margin-top: -20px;
+		font-weight: 300;
+		}
+	}

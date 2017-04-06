@@ -1,0 +1,94 @@
+body { 
+  color: #4d4d4f;
+  font-family: "sans-serif", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #1c355e;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 { line-height: 1.2;   letter-spacing:  -.1rem;   font-weight: 900;    font-family: 'Roboto Slab', sans-serif; margin-bottom: 20px;}
+h2 { line-height: 1.25;  letter-spacing: -.05rem;   font-weight: 400;    font-family: 'Roboto Slab', sans-serif;}
+h3 { line-height: 1.25;  letter-spacing:  .01rem;   font-weight: 400;    font-family: 'Roboto Slab', sans-serif;}
+h4 { line-height: 1.25;  letter-spacing: -.02rem;   font-weight: 900;    font-family: 'Roboto Slab', sans-serif;}
+h5 { line-height: 1.5;   letter-spacing:  .05rem;   font-weight: 600;    text-transform: uppercase;  margin-bottom: 20px;}
+h6 { line-height: 1.6;   letter-spacing: 0;         font-weight: 600;    }
+p  { line-height: 1.5;   letter-spacing: 0;         font-weight: 400;    margin: 5px 0;}
+
+/* Phone */
+h1   { font-size: 4.0rem; }
+h2   { font-size: 3.0rem; }
+h3   { font-size: 2.5rem; }
+h4   { font-size: 2.0rem;}
+h5   { font-size: 1.75rem; }
+h6   { font-size: 1.7rem; }
+p    { font-size: 1.45rem; }
+
+  /* Tablet */
+  @media (min-width: 550px) {
+  h1 { font-size: 5.5rem; }
+  h2 { font-size: 3.5rem;}
+  h3 { font-size: 3.0rem; }
+  h4 { font-size: 2.25rem;}
+  h5 { font-size: 1.85rem; }
+  h6 { font-size: 2.0rem; }
+  p  { font-size: 1.8rem; }
+  }
+
+  /* Desktop */
+  @media (min-width: 800px) {
+  h1 { font-size: 5.65rem; }
+  h2 { font-size: 5.0rem; }
+  h3 { font-size: 3.25rem; }
+  h4 { font-size: 2.3rem;}
+  h5 { font-size: 1.9rem; }
+  h6 { font-size: 2.0rem; }
+  }
+
+
+/* Links
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  text-decoration: none;
+  -moz-transition: all 0.3s ease-in,all 0.35s ease-out;
+  -o-transition: all 0.3s ease-in,all 0.35s ease-out;
+  -webkit-transition: all 0.3s ease-in,all 0.35s ease-out;
+  transition: all 0.3s ease-in,all 0.35s ease-out;
+  cursor: pointer;
+  color: #1c355e;
+}
+
+.read-more a {
+color: #dc3a2e !important;
+font-weight: 700;
+letter-spacing: .02rem;
+cursor: pointer;
+}
+
+.read-more a:hover {
+color: #1c355e !important;
+}
+
+a:hover {
+  color: #dc3a2e;
+}
+
+.date {
+  text-transform: uppercase;
+}
+
+.txt-right {
+  text-align: left;
+  padding-top: 15px;
+}
+
+@media screen and (min-width: 800px) {
+.txt-right {
+  text-align: right;
+  padding-top: 0px;
+}
+}

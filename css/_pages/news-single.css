@@ -1,0 +1,11 @@
+blockquote {
+	font-size: 28px;
+	font-weight: 100;
+	border-left: 7px solid #dc3a2e;
+	margin-left: 0;
+	padding-left: 40px;
+	padding: 6px 0 10px 40px;
+	color: #999;
+	font-style: oblique;
+	line-height: 1.5;
+}

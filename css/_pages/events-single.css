@@ -1,0 +1,86 @@
+.events-single-body {
+	padding: 50px 0;
+}
+
+ul.single-share {list-style: none; margin-top: 10px;}
+ul.single-share li {display: inline-block; vertical-align: -webkit-baseline-middle;}
+ul.single-share li img {border-radius: 50%; width: 35px; margin: 0;}
+ul.single-share li p {font-size: 14px; margin-left: 10px;}
+ul.single-share li .facebook img	{background-color: #0071bc;}
+ul.single-share li .twitter img		{background-color: #12c1fd;}
+
+@media (max-width: 799px) {
+ul.single-share li p {display: none;}
+}
+
+@media screen and (min-width: 800px) {
+	ul.single-share {border-left: 2px solid #ccc; padding: 15px 0 0 30px; list-style: none; margin-top: 0px;}
+	ul.single-share li img {margin: 0 0 0 5px;}
+	ul.single-share li p {margin-left: 0px;}
+}
+
+ul.post-list {margin-top: 40px;}
+ul.post-list li {display: block; margin-bottom: 30px;}
+ul.post-list li a {width: 100%;}
+
+@media screen and (min-width: 900px) {
+	ul.post-list {margin-top: 75px;}
+	ul.post-list li {display: inline; margin-right: 10px;}
+}
+
+.events-single {
+	border-top: 2px solid #ccc;
+	padding: 0;
+	margin: 0 0 30px 0;
+}
+
+.events-single .meeting-date {
+	color: #dc3a2e;
+	float: left;
+	text-align: center;
+	line-height: .8;
+	padding: 15px 0 5px 0;
+	float: left;
+}
+
+	@media screen and (max-width: 799px) {
+		.events-single .meeting-date, .events-single .meeting-info {
+		width: 100%;
+		text-align: left;
+		}
+	}
+
+	@media screen and (min-width: 800px) {
+		.events-single {
+		margin: 40px 0 30px 0;
+		}
+
+		.events-single .meeting-date {
+		color: #dc3a2e;
+		float: left;
+		padding: 2% 3% 7% 2%;
+		float: left;
+		}
+
+		.events-single .meeting-info {
+		width: 310px !important;
+		}
+
+		.events-single .meeting-date p {
+		font-size: 16px;
+		padding-top: 5px;
+		}
+	}
+
+	@media screen and (min-width: 900px) {
+		.events-single .meeting-date {
+		padding: 4% 6% 7% 5%;
+		}
+	}
+
+
+@media screen and (min-width: 799px) and (max-width: 1024px) {
+	.btn-rsvp-single {
+		padding: 15px 20px !important;
+	}
+}
