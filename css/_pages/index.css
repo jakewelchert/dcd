@@ -201,6 +201,7 @@ display: none;
 		float: left;
 		padding: 0% 6% 0% 1%;
 		float: left;
+		min-width: 105px;
 		}
 
 		.events-index .meeting-date p {
