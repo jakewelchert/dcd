@@ -71,12 +71,14 @@
 	float: left;
 	padding-left: 15px;
 	padding-top: 0px;
+	width: calc(100% - 125px)
 }
 	@media (min-width: 950px) {
 	.candidate-module .content {
 	float: left;
 	padding-left: 25px;
 	padding-top: 25px;
+	width: calc(100% - 165px)
 	}
 	}
 
@@ -84,13 +86,14 @@
 .candidate-module .content p {
 	margin-top: 2px;	
 	padding-bottom: 5px;
+	font-size: 15px;
 }
 
 	@media (min-width: 950px) {
 	.candidate-module .content p {
 	margin-top: 5px;
-	padding-top: 5px;
 	padding-bottom: 15px;
+	font-size: 17px;
 	}
 	}
 
