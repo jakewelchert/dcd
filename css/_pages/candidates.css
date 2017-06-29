@@ -1,7 +1,13 @@
 .candidates-subhead {
-  padding-left: 25px;
-  margin-bottom: 0;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 0;
 	padding-bottom: 20px;
+}
+
+.candidates-subhead-h5 {
+	padding-left: 25px;
+	margin-top: 25px
 }
 
 .candidates-subhead-row {
@@ -11,6 +17,12 @@
 	.candidates-subhead {
 	padding-left: 0px;
 	margin-bottom: 0;
+	}
+
+	.candidates-subhead-h5 {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 40px
 	}
 	}
 
