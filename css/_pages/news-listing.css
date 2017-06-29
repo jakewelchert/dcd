@@ -54,10 +54,6 @@ ul.featured-news li:first-child {
 	border-top: 2px solid #ccc;
 }
 
-ul.featured-news-meta-single  {
-	padding-top: 8px;
-}
-
 ul.featured-news-meta li, ul.featured-news-meta li:first-child {
 	border: none;
 	padding: 0;
