@@ -61,6 +61,7 @@ ul.events-archive li:last-child {
 		color: #dc3a2e;
 		float: left;
 		padding: 5% 3% 7% 2%;
+		min-width: 105px;
 		}
 
 		.meeting-date p {
@@ -72,6 +73,7 @@ ul.events-archive li:last-child {
 	@media screen and (min-width: 1024px) {
 		.meeting-date {
 		padding: 5% 5% 0 5%;
+		min-width: 170px;
 		}
 	}
 
