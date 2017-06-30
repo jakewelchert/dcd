@@ -30,7 +30,7 @@
 .single-body h4 { margin-bottom: 10px;}
 .single-body h5 { margin-bottom: 30px;}
 
-.single-body p a { text-decoration: underline;}
+.single-body p a, .interior-body p a { text-decoration: underline;}
 
 .wp-caption-text {
 	margin-top: -45px;
