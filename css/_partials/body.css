@@ -31,3 +31,9 @@
 .single-body h5 { margin-bottom: 30px;}
 
 .single-body p a { text-decoration: underline;}
+
+.wp-caption-text {
+	margin-top: -45px;
+	margin-bottom: 25px;
+	font-size: 14px;
+}
